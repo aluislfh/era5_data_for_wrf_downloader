@@ -11,11 +11,11 @@ el fichero ".cdsapirc" debes ponerlo en tu HOME (debe tener los datos de tu cuen
 
 el script que vaz a correr y necesitas editar es --> "download.sh"
 
-    en ese fichero lo que falta por precisar es la fecha inicial y final, y el area geografica
-    cuando lo corras ya dentro se llaman a los dos scripts de python que estan en el directorio, que son --> "GetERA5-sl.py" y "GetERA5-pl.py", 
-    el script de bash los toma como plantilla y crea nuevos scripts donde incerta los parámetros de fecha y límites geográficos.
+en ese fichero lo que falta por precisar es la fecha inicial y final, y el area geografica
+cuando lo corras ya dentro se llaman a los dos scripts de python que estan en el directorio, que son --> "GetERA5-sl.py" y "GetERA5-pl.py", 
+el script de bash los toma como plantilla y crea nuevos scripts donde incerta los parámetros de fecha y límites geográficos.
 
-    otra cosa que debes cambiar es al inicio del script de bash estas líneas de acuerdo al enviroment y paths de la pc donde lo vayas a correr:
+otra cosa que debes cambiar es al inicio del script de bash estas líneas de acuerdo al enviroment y paths de la pc donde lo vayas a correr:
 
         CODEDIR=/home/adrian/Desktop/prueba
         DATADIR=/home/adrian/Desktop/prueba/data
